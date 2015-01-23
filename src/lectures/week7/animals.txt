@@ -1,0 +1,55 @@
+Sand Lizard
+Slow-worm
+European Mole
+Hazel Dormouse
+St Kilda Field
+Mouse
+Harvest Mouse
+House Mouse
+Wood Mouse
+Yellow-necked Mouse
+Alpine Newt
+Great Crested Newt
+Italian Crested Newt
+Palmate Newt
+Smooth Newt
+European Otter
+Harbour Porpoise
+Domestic Rabbit
+Black Rat
+Brown Rat
+Fire Salamander
+Bearded Seal
+Common Seal
+Grey Seal
+Hooded Seal
+Ringed Seal
+Common Shrew
+Eurasian Pygmy Shrew
+Eurasian Water Shrew
+Adder
+Aesculapian Snake
+Dice Snake
+Grass Snake
+Smooth Snake
+Grey Squirrel
+Red Squirrel
+Common Toad
+Midwife Toad
+Natterjack Toad
+Yellow-bellied Toad
+European Pond Turtle
+Green Sea Turtle
+Hawksbill Turtle
+Leatherback Sea Turtle
+Loggerhead Sea Turtle
+Bank Vole
+Common Vole
+Field Vole
+European water vole
+Red-necked Wallaby
+Walrus
+European Pine Marten
+European Polecat
+Stoat
+Weasel

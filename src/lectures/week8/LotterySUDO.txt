@@ -1,0 +1,17 @@
+VARS
+int guess, lot
+String guessStr, lotStr
+
+CALC guessStr  and lotStr
+
+IF guess = lottery
+    THEN print "Win $10000"
+ELSE IF guessStr  contains first number in lotStr AND second number 
+     AND third 
+  THEN print "Win $3000"
+ELSE IF guessStr contains first number of lotStr OR second OR third
+  THEN print "Win $1000"
+ELSE
+  THEN print "No prize today"
+ENDIF
+

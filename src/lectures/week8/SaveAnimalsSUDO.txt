@@ -1,0 +1,27 @@
+
+Read animals list from a file. Show if an animal is on the   
+protected species list or not? Ignore case.
+
+VARS
+ Scanner animals = Scanner to animals2 file
+ Scanner protectedAnimals = Scanner to protected list
+ String animal, protectedAnimal
+ boolean protected
+================P/CODE STARTS HERE===========================
+LOOP while animals has line
+   SET animal = next line from animals
+   SET protected = false
+   LOOP while protectedAnimals has lines
+      SET protectedAnimal = next line from protectedAnimals
+      IF protectedAnimal = animal (ignore case)
+        SET protected = true
+      ENDIF
+   ENDLOOP 
+   IF protected 
+      PRINT animal is protected
+   ELSE
+      PRINT animal is not protected
+   ENDIF 
+
+   REOPEN protectedAnimals
+ENDLOOP

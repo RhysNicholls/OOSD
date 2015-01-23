@@ -1,0 +1,14 @@
+ArrayList<Integer> list = new ArrayList()
+final int REQUIRED = 100;
+int count = 0, range = 1000, num;
+Random gen = new Random();
+=================
+LOOP while insufficient numbers (count < REQUIRED)
+  SET num to random number
+  IF list ! contain num
+    ADD num to list
+    SET count to count + 1
+  ENDIF
+ENDLOOP
+
+PRINT list

@@ -1,0 +1,25 @@
+VARS:
+
+Scanner scan .... (set to input file)
+int numWords = 0, wordAverage, totalChars = 0
+String word
+
+
+===========================================
+LOOP while input file has words
+  SET word = read next token
+  SET numWords++
+  SET totalChars += length of word
+ENDLOOP
+  
+  CALC wordAverage // average length
+
+RESET scan // this will reset the file - but how?
+
+LOOP while input file has words
+  SET word = read next token
+  IF  word length < wordAverage
+     PRINT word
+  ENDIF
+ENDLOOP
+

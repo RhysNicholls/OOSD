@@ -1,0 +1,56 @@
+Consider Question 2.15 - program TriangleArea
+
+Calculate the area of a triangle given 3 points (x1,y1), (x2,y2) and (x3,y3)
+
+area = SquareRoot( s(s-side1)(s-side2)(s-side3) )
+    where s= (side1+side2+side3)/2
+
+Sample:
+   Enter 3 points: 1.5 -3.4 4.6 5 9.5 -3.4
+   Area is 33.6
+==================================================
+
+1. So we obviously need some pseudocode! 
+
+First pass might be:
+ CREATE scanner
+ READ in points
+ CALCULATE length of sides
+ CALCULATE s
+ CALCULATE area
+ PRINT area
+
+We will need some variables - we can put these at top of pseudocode as 
+we discover them
+
+How do we find the length of a side given points x and y? 
+Obviously Pythagoras - Use google for detail
+======================================
+2. Add variables and details
+
+double x1,x2,x3,y1,y2,y3, s, side1,side2,side3, area
+Scanner input
+
+CREATE input : Scanner
+READ x1, y1, x2, .....
+CALC side1, side2,side3
+CALC s
+CALC area
+PRINT area
+
+Good - now we almost ready to code BUT first lets write small program 
+(PROTOTYPE) to check we can use Pythagoras .... using google gives hits like:
+http://www.purplemath.com/modules/distform.htm
+so we'll try writing TestPythagoras.java
+
+OK ... now the problem becomes more straightforward.
+=================================================================
+3. My next PROTOTYPE would have the example numbers HARDCODED so I don't 
+have to keep typing in the numbers while I'm testing. We'll call this
+TriangleArea1.java and copy some of the Pythagoras code across
+
+==================================================================
+4. Add in the scanner and read the points - TriangleArea.java
+   Read from an input file to save typing?
+
+

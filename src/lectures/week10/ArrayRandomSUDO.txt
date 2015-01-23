@@ -1,0 +1,39 @@
+Create an  array of 100 random numbers between 10 and 110. 
+Filter out any duplicate numbers. 
+From this we could create 2 arrays – oddNumber and evenNumber. How? 
+
+VARS
+int [] allInts = new int[100]
+int [] noDupsTemp = new int[100]
+int [] noDups
+int count = 0
+Random gen
+
+++++++++++++++++++++++++++++
+
+LOOP for i 0 to < 100
+  SET allInts[i] to random number  0 -1000
+ENDLOOP
+
+LOOP for i 0 to < 100
+ IF noDupsTemp NOT contains allInts[i] // METHOD
+   SET noDupsTemp[count] = allInts[i]
+   SET count++
+ ENDIF
+ENDLOOP
+
+INITIALIZE noDups to size count
+
+LOOP  for i to < count
+  SET noDups[i] = noDupsTemp[i]
+ENDLOOP
+===================================================
+METHOD boolean contains(int i , int [] noDups, int count)
+
+LOOP j from 0 to < count
+  IF noDupsTemp[j] = i
+    RETURN true
+  ENDIF
+ENDLOOP
+
+RETURN false

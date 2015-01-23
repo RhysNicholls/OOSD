@@ -1,0 +1,24 @@
+VARS
+Random gen = new Random
+int random, count = 0
+int [] array = new int[100]
+
+==========================
+LOOP while count < 100
+  GENERATE random number random (0-999)
+  IF NOT array contains random // method contains
+    SET count = count +1
+    SET array[count] = random
+  ENDIF
+ENDLOOP
+====================
+METHOD boolean contains(int num, int [] array, int count)
+(Hey .. we could re-use this!)
+
+LOOP for i = 0 to count-1
+  IF array[i] = num
+    RETURN true
+  ENDIF
+ENDLOOP
+
+RETURN false

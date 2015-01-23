@@ -1,0 +1,21 @@
+VAR
+int totalAbbie=0, totalRufus=0, totalZak=0
+scanner scanner
+string name;
+
+=========
+
+LOOP while scanner has next string 
+
+    SET name as string
+
+    IF string = Abbie
+        ADD next int scanned to totalAbbie
+    ELSE if String = Rufus
+        ADD next int scanned to totalRufus
+    ELSE if string = Zak
+        ADD next int scanned to totalZak
+
+ENDLOOP
+
+OUTPUT total for each subject 

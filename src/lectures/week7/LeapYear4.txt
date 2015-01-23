@@ -1,0 +1,17 @@
+Version 1     
+     A leap year is 
+     divisible by 4 but not by 100
+     or
+     divisible by 400
+  
+Version 2  
+     TRUE if year % 4 == 0 AND NOT divisible by 100 
+     TRUE if year % 400 = 0
+
+Version 3
+     TRUE if year % 4 == 0 AND year % 100 != 0
+     TRUE if year % 400 == 0
+
+Version 4
+    (year % 4 == 0 && year % 100 != 0) || ( year % 400 == 0 )
+  

@@ -1,0 +1,17 @@
+How can we find and total the integers in a file when they are 
+mixed in with words?
+E.g see "trombones.txt" 
+=====================================================
+
+Scanner scan =  .... getResource trombones.txt 
+int total = 0 (must set to 0 so we can add to it!)
+
+LOOP while input file has tokens
+   IF next token is an integer
+     READ integer and add to total
+   ELSE
+     READ word/token
+   ENDIF
+ENDLOOP
+
+PRINT total
