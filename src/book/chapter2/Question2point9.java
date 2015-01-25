@@ -14,19 +14,21 @@ import java.util.Scanner;
 public class Question2point9 {
      public static void main(String[] args) {
 
-        String firstName, middleName, lastName;
+        double principleAmount, rateOfInterest, timeDuration, simpleInterest;
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.print("Enter your First Name: ");
-        firstName = scan.next();
+        System.out.print("Enter the Principle Amount: ");
+        principleAmount = scan.nextInt();
 
-        System.out.print("Enter your Middle Name: ");
-        middleName = scan.next();
+        System.out.print("Enter the Rate of Interest: ");
+        rateOfInterest = scan.nextInt();
 
-        System.out.print("Enter your Last Name: ");
-        lastName = scan.next();
+        System.out.print("Enter the Time Duration: ");
+        timeDuration = scan.nextInt();
+        
+        simpleInterest = (principleAmount * rateOfInterest * timeDuration) / 100;
 
-        System.out.println("the name entered is " + firstName + " " + middleName + " " + lastName);
+        System.out.println("For Principle Amount: " + principleAmount + " with rate of Interest: " + rateOfInterest + " and Duration of " + timeDuration+ " . The simple interest is: " + simpleInterest);
 }
 }
