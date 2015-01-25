@@ -5,13 +5,10 @@
  */
 package book.chapter2;
 
-
 /**
  *
  * @author Shiftyllama
  */
-public class Question2point11 {
-      
-
-        
+public class Question2point13 {
+    
 }
