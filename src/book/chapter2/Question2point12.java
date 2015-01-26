@@ -28,4 +28,4 @@ public class Question2point12 {
         System.out.println("The minimun runway length for this aeroplane is " + runwayLength);
         System.out.println();
     }
-}
+}   
