@@ -1,0 +1,12 @@
+Write a program that converts kilos to grams from 1 KG to 25 KG
+
+VAR
+int kilo, grams
+
+=========
+
+ LOOP whilst kilo is <= 25 
+    CALCULATE grams (kilo * 100)
+    OUTPUT kilo and grams
+    INCREMENT kilo by one
+ END LOOP

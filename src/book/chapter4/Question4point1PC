@@ -1,0 +1,17 @@
+Write a program that asks the user for a positive non zero integer value and then computes the sum all of all the ints between zero
+and the int entered
+
+VAR
+
+int input
+int answer
+scanner scan
+
+=========================
+PROMPT for a positive no-zero integer
+
+LOOP whilst i is less than or equal to input
+    ADD i to answer
+    INC i
+
+OUTPUT total as answer 

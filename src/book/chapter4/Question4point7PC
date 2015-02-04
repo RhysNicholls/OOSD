@@ -1,0 +1,18 @@
+Prompt user to enter a lower bound and an upper bound the print all the numbers between these 2 numbers
+
+VAR
+
+Int upper, lower, i
+
+scan = new .... : Scanner
+
+==============
+PROMPT user to enter upper bound
+SCAN input
+PROMPT user to enter lower bound
+SCAN input
+FOR i = lower, lower is less than upper
+    PRINT i
+    INC i  
+LOOP END
+    

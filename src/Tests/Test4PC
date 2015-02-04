@@ -1,0 +1,25 @@
+VAR
+Scanner scan = getResource carUML.txt
+String publicClass
+string nextLine
+===========
+
+PRINT package tester
+READ next string publicClass
+PRINT  public class "publicClass" {
+WHILE scan has new line
+LOOP
+    READ nextLine
+    SPLIT line into array
+    IF array[0]0 is - and array[2] is : and array[3] int
+        PRINT private int and array[1]
+    ELSE IF array[0] is + and array[2] is : and array[3] int
+        PRINT public int and array [1]
+    ELSE IF array[0] is - and array[2] is : and array[3] string
+        PRINT private string and array [1]
+    ELSE IF array[0] is + and array[2] is : and array[3] string
+        PRINT public string and array [1]
+    ELSE IF array[2] is (
+        PRINT public and array[1] (int ) {
+    this.cost = cost;
+ END LOOP

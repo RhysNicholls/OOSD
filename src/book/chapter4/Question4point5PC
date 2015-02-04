@@ -1,0 +1,13 @@
+Prompt user to enter two numbers. Numbers should be added and their sum displayed.
+User should then be asked if they want the operation repeated
+
+VAR
+
+Int num1, num2, sum
+
+scan = new .... : Scanner
+
+==============
+PROMPT user to enter first number
+PROMPT user to enter second number
+

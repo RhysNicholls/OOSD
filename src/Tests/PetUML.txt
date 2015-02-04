@@ -1,0 +1,9 @@
+Pet
+===================
+- species : String
++ isChipped : boolean
+- name : String
+- age : int
+===================
++ Pet ( String name )
+===================

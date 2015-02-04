@@ -1,0 +1,9 @@
+Car
+===================
+- cost : int
+- color : String
+- make : String
++ count : int
+===================
++ Car ( int cost )
+===================

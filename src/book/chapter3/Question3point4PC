@@ -1,0 +1,16 @@
+Generate 3 single digit ints and prompt the user to enter the product of these 3 ints
+
+VAR
+
+int num1 num2 answer
+
+scanner input
+Random random
+
+============================
+GENERATE number1 using random.nextInt(100);
+GENERATE number2 using random.nextInt(100);
+
+PROMPT user to input answer to num1 * num2
+SCAN users answer and store as answer
+DISPLAY users answer and if is true or false using ==

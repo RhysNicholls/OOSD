@@ -1,0 +1,22 @@
+
+VARS
+Scanner scan = getResource words.txt
+Scanner sc = stdin
+Arraylist<String> list = new Arraylist()
+Random gen = new Random
+String word, guess1 , guess2
+boolean guessed
+
+=============================
+LOOP while scan has words
+  READ word and add to list 
+ENDLOOP
+
+LOOP i= 0 to 2
+  SET word = random word from list
+  PROMPT please enter 2 characters
+  READ guess1
+  READ guess2
+  PRINT "word is " ... word
+  PRINT "You guess was " word contains guess1 or guess2
+ENDLOOP
